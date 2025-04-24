@@ -17,6 +17,16 @@ header {
   grid-column: 2;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+nav button {
+  flex: 1 0 5rem;
+}
+
 #content {
   grid-column: 2;
 }
