@@ -10,7 +10,7 @@ body {
   display: grid;
   grid-template-columns: 1fr min(60ch, calc(100% - (var(--center-col-padding) * 2))) 1fr;
   gap: var(--center-col-padding);
-  background-color: rebeccapurple;
+  background-color: bisque;
 }
 
 header {
