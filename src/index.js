@@ -8,12 +8,8 @@ const aboutBtn = document.querySelector('.about-btn');
 
 const createElementHelper = (element, textContent = null, classList = null) => {
   const newElement = document.createElement(element);
-  if (textContent) {
-    newElement.textContent = textContent;
-  }
-  if (classList) {
-    newElement.classList = classList;
-  }
+  newElement.textContent = textContent ?? '';
+  newElement.classList = classList ?? '';
   return newElement;
 };
 
