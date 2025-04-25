@@ -30,3 +30,7 @@ nav button {
 #content {
   grid-column: 2;
 }
+
+#content img {
+  max-width: 100%;
+}
