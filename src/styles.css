@@ -34,3 +34,8 @@ nav button {
 #content img {
   max-width: 100%;
 }
+
+.day-hours-container {
+  display: flex;
+  justify-content: space-between;
+}
