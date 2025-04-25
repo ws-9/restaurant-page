@@ -1,4 +1,5 @@
 import "./styles.css";
+import restaurantImg from "./restaurant.jpg";
 
 const mainContent = document.querySelector('#content');
 const homeBtn = document.querySelector('.home-btn');
@@ -27,7 +28,7 @@ const createHoursSection = (day, time) => {
 
 const loadHomeHandler = () => {
   const img = document.createElement('img');
-  img.src = './restaurant.jpg';
+  img.src = restaurantImg;
   img.alt = 'A picture of a nice restaurant.';
   const hoursBox = createElementHelper('div', null, 'hours-outer-box');
   hoursBox.append(
